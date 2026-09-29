@@ -21,7 +21,7 @@
         <jackson.version>2.18.8</jackson.version>
         <kafka.clients.version>3.9.2</kafka.clients.version>
         <netty.version>4.1.135.Final</netty.version>
-        <wire.version>6.3.0</wire.version>
+        <wire.version>6.4.5</wire.version>
     </properties>
 
     <dependencyManagement>
@@ -599,7 +599,7 @@
         <dependency>
             <groupId>org.postgresql</groupId>
             <artifactId>postgresql</artifactId>
-            <version>42.7.11</version>
+            <version>42.7.12</version>
         </dependency>
         <dependency>
             <groupId>com.mysql</groupId>
@@ -610,7 +610,7 @@
         <dependency>
             <groupId>org.mariadb.jdbc</groupId>
             <artifactId>mariadb-java-client</artifactId>
-            <version>3.3.2</version>
+            <version>3.3.5</version>
         </dependency>
         <dependency>
             <groupId>com.fasterxml.jackson.core</groupId>
@@ -634,7 +634,7 @@
         <dependency>
             <groupId>org.assertj</groupId>
             <artifactId>assertj-core</artifactId>
-            <version>3.25.3</version>
+            <version>3.27.7</version>
             <scope>test</scope>
         </dependency>
         <dependency>
