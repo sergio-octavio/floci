@@ -19,7 +19,7 @@
         <jackson.version>2.22.2</jackson.version>
         <apicurio.version>2.6.13.Final</apicurio.version>
         <everit.json.schema.version>1.14.6</everit.json.schema.version>
-        <wire.version>6.4.7</wire.version>
+        <wire.version>7.1.0</wire.version>
     </properties>
 
     <dependencyManagement>
@@ -61,12 +61,12 @@
             <dependency>
                 <groupId>org.apache.httpcomponents.core5</groupId>
                 <artifactId>httpcore5</artifactId>
-                <version>5.3.6</version>
+                <version>5.4.3</version>
             </dependency>
             <dependency>
                 <groupId>org.apache.httpcomponents.core5</groupId>
                 <artifactId>httpcore5-h2</artifactId>
-                <version>5.3.6</version>
+                <version>5.4.3</version>
             </dependency>
             <dependency>
                 <groupId>com.h2database</groupId>
@@ -201,7 +201,7 @@
             <artifactId>httpclient5</artifactId>
             <!-- Held at 5.5.x: 5.6 adds commons-compress content decoding, and its XZ codec
                  needs org.tukaani:xz at native link time (GraalVM link-at-build-time). -->
-            <version>5.5.1</version>
+            <version>5.6.3</version>
         </dependency>
         <!-- Explicit overrides for Quarkus BOM which pins these at 3.7.0;
              docker-java-core:3.7.1 requires 3.7.1 for ImageHistoryCmd and ExportContainerCmd -->
